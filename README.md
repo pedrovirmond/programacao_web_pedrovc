@@ -1,2 +1,2 @@
-# programacao_web_pedrovc
-Repositorio da disciplina programacao web
+# Programação WEB
+Repositório da disciplina programação web
