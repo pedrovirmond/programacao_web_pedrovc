@@ -1,14 +1,37 @@
+*{
+    margin: 0px;
+}
+
 #titulo{
     text-align: center;
     color: blue;
 }
 
-.rodape{
-    text-align: center;
-    color: red;
-    border: 1px dotted;
+input{
+    display: block;
+    margin: 1px;
 }
 
-.entradas-usuario{
+.rodape{
+    background-color: grey;
+    color: red;
     border: 1px solid;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.entradas-formulario{
+    border: 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
 }
